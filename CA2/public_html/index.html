@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>CA2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="movieForm">
+            <form name="searchMovies" method="get" action="index.html" onSubmit="return validate()">
+                <label>Title</label>
+                <input type="text" name="sName"/>
+                <label>Genre</label>
+                <input type="text" name="sGenre"/>
+                <label>ID</label>
+                <input type="text" name="sId"/>
+                <input type="submit"/>
+            </form>
+        </div>
+        <div id="display">
+            <p id="dName">Movie Title</p>
+            <p id="dGenre">Movie Genre</p>
+            <p id="dId">ID Number</p>
+        </div>
+        <div id="beeMoviePoster">
+            <a href="beeMovie.html" target="_blank">
+                <img alt="poster1" src="images/posterDeLaBee.jpg"/>
+            </a>
+        </div>
+        <div id="honeylandPoster">
+            <a href="honeyland.html" target="_blank">
+                <img alt="poster2" src="images/honeylandPoster.jpg"/>
+            </a>
+        </div>
+        <div class="footer">
+            <img id= "footerBee" alt="cartoonBee" src="images/bee.png"/>
+        </div>
+    </body>
+</html>
